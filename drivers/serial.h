@@ -26,4 +26,11 @@ void soft_serial_initiator_init(void);
 // target is interrupt accept side
 void soft_serial_target_init(void);
 
-bool soft_serial_transaction(int sstd_index);
+// initiator result
+#define TRANSACTION_END 0
+#define TRANSACTION_NO_RESPONSE 0x1
+#define TRANSACTION_DATA_ERROR 0x2
+#define TRANSACTION_TYPE_ERROR 0x4
+#define TRANSACTION_ACCEPTED 0x8
+
+

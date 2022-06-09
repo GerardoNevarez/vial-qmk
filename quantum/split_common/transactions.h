@@ -31,6 +31,7 @@ typedef struct _split_transaction_desc_t {
     uint16_t         initiator2target_offset;
     uint8_t          target2initiator_buffer_size;
     uint16_t         target2initiator_offset;
+    uint8_t          *status;
     slave_callback_t slave_callback;
 } split_transaction_desc_t;
 
