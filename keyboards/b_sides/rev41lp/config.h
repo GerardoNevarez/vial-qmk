@@ -52,8 +52,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define BACKLIGHT_ON_STATE 1
 #define BACKLIGHT_BREATHING
 /* number of backlight levels */
-#define BACKLIGHT_LEVELS 7
-#define BACKLIGHT_LIMIT_VAL 150
+#define BACKLIGHT_LEVELS 20
+#define BACKLIGHT_LIMIT_VAL 190
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
 #define DEBOUNCE 5
