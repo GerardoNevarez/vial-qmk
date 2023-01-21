@@ -20,3 +20,7 @@ UNICODE_ENABLE = no        # Unicode
 AUDIO_ENABLE = no           # Audio output
 SPLIT_KEYBOARD = yes        # Use shared split_common code
 LAYOUTS = split_3x5_2
+
+# enable use of 3.3V promicros
+F_CPU = 8000000
+
